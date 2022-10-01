@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 
 class Notes extends Component {
+    //updated the constructor files
+    //removed typos
     constructor(props){
+
         super(props)
         
         //State is set in wrong here
 
+
         this.state={
             notes:[
-                {id:1,title:"My first Note", body:"My first note body"},
-                {id:2,title:"My second Note", body:"My Second note body"},
-                {id:3,title:"My third Note", body:"My Third note body"}
+                {id:1,title:"My first Note", body:"My first note body, yes"},
+                {id:2,title:"My second Note", body:"My Second note body, second"},
+                {id:3,title:"My third Note", body:"My Third note body, third"}
             ]
         }
 
@@ -59,8 +63,9 @@ class Notes extends Component {
                 <h1 className="font-medium text-lg">Trip to San fran</h1>
                 </div>
                 <p className="text-gray-600 text-sm">
-                San fran was one of the coolest places I have ever been all the
-                beautiful sightseeing and much more...
+                San francisco is the best
+            place on planet earth and evrybody loves, it
+            amazing
                 </p>
             </a>
         )}
