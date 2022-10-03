@@ -33,6 +33,7 @@ class Notes extends Component {
       className="text-gray-50 font-bold text-lg uppercase tracking-wide"
     >
       Notes For Everyone
+
     </a>
   </header>
   <div className="w-full px-4 mb-4">
@@ -66,6 +67,9 @@ class Notes extends Component {
                 San francisco is the best
             place on planet earth and evrybody loves, it
             amazing
+                </p>
+                <p className="text-gray-600 text-sm">
+                We have our exams going on.
                 </p>
             </a>
         )}
