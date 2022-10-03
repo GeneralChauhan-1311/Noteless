@@ -2,7 +2,7 @@ import React from "react";
 import Notes from "./pages/Notes"
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -24,9 +24,9 @@ export default function BasicExample() {
       
 
         
-        <Switch>
-          <Route exact path="/" component={Notes} />
-        </Switch>
+        <Routes>
+          <Route path="/" component={Notes} />
+        </Routes>
       </>
     </Router>
   );
